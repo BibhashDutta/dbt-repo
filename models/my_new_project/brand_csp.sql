@@ -5,3 +5,4 @@ with brand_csp as
 )
 
 select * from brand_csp
+
