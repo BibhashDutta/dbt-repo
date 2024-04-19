@@ -1,8 +1,7 @@
 with brand_csp as
 (
-    select Outlet, Brand, Category, Month as mnt, Year as yrs, Sales_Volume
-    from `Entries`.`brands`
-    where Category = 'CSP'
+    select Outlet, Brand, Category
+    from brands_data.brand
 )
 
 select * from brand_csp
